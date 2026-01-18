@@ -1,33 +1,127 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<title>World Cell Maringá</title>
-<style>
-body{font-family:Arial;margin:0;text-align:center}
-header{padding:30px}
-.services{display:flex;flex-wrap:wrap;justify-content:center;gap:20px}
-.service{width:250px}
-.service img{width:100%;border-radius:8px}
-.btn{background:#25D366;color:#fff;padding:15px 25px;text-decoration:none;border-radius:6px}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cell Maringá | Assistência Técnica 100% Online</title>
+    <meta name="description" content="Assistência técnica de celulares em Maringá. Atendimento 100% online com busca e entrega no seu endereço. Seu tempo é valioso.">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffffff;
+            color: #222;
+        }
+        header {
+            background: #0a0a0a;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+        header p {
+            font-size: 18px;
+            margin: 15px 0 25px;
+        }
+        .btn {
+            display: inline-block;
+            background: #25D366;
+            color: #fff;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .steps, .services, .benefits {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .box {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 6px;
+            text-align: center;
+        }
+        .cta {
+            background: #f4f4f4;
+            text-align: center;
+        }
+        footer {
+            background: #0a0a0a;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
+
 <header>
-<img src="img/logo.png" width="200">
-<h1>Assistência Técnica 100% Online</h1>
-<p>Buscamos, consertamos e entregamos. Seu tempo é valioso.</p>
-<a class="btn" href="https://wa.me/5544999924354">Falar no WhatsApp</a>
+    <h1>World Cell Maringá</h1>
+    <p>Assistência técnica de celulares <strong>100% online</strong><br>
+    Nós buscamos e entregamos no seu endereço.<br>
+    Seu tempo é valioso.</p>
+    <a class="btn" href="https://wa.me/5544999924354" target="_blank">Falar no WhatsApp</a>
 </header>
 
 <section>
-<h2>Nossos Serviços</h2>
-<div class="services">
-<div class="service"><img src="img/bateria.png"><p>Troca de Bateria</p></div>
-<div class="service"><img src="img/tela.png"><p>Troca de Tela</p></div>
-<div class="service"><img src="img/conector.png"><p>Conector de Carga</p></div>
-<div class="service"><img src="img/software.png"><p>Software</p></div>
-</div>
+    <h2>Como funciona nosso atendimento</h2>
+    <div class="steps">
+        <div class="box">Você entra em contato pelo WhatsApp</div>
+        <div class="box">Agendamos a coleta no seu endereço</div>
+        <div class="box">Técnico especializado realiza o serviço</div>
+        <div class="box">Entregamos o aparelho pronto para uso</div>
+        <div class="box">Pagamento na entrega (Pix ou Cartão)</div>
+    </div>
 </section>
+
+<section>
+    <h2>Nossos serviços</h2>
+    <div class="services">
+        <div class="box">Troca de tela</div>
+        <div class="box">Troca de bateria</div>
+        <div class="box">Conector de carga</div>
+        <div class="box">Atualização e formatação</div>
+        <div class="box">Venda de acessórios</div>
+        <div class="box">Outros serviços sob consulta</div>
+    </div>
+</section>
+
+<section>
+    <h2>Por que escolher a World Cell?</h2>
+    <div class="benefits">
+        <div class="box">Atendimento profissional e transparente</div>
+        <div class="box">Busca e entrega no conforto da sua casa</div>
+        <div class="box">Técnicos de confiança</div>
+        <div class="box">Pagamento facilitado</div>
+        <div class="box">Atendimento rápido e eficiente</div>
+    </div>
+</section>
+
+<section class="cta">
+    <h2>Não perca tempo indo até uma assistência</h2>
+    <p>Nós vamos até você. Simples, rápido e seguro.</p>
+    <a class="btn" href="https://wa.me/5544999924354" target="_blank">Solicitar atendimento agora</a>
+</section>
+
+<footer>
+    <p>World Cell Maringá – Assistência Técnica 100% Online</p>
+    <p>© 2026 – Todos os direitos reservados</p>
+</footer>
+
 </body>
 </html>
